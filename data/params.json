@@ -1,0 +1,24 @@
+{
+  "format": "octra-hfhe-bounty-v2",
+  "text_encoding": "pvac-text-wrapped",
+  "pubkey_encoding": "pvac-v3-compressed",
+  "cipher_encoding": "pvac-v3-length-prefixed-bundle",
+  "h_dimensions": {
+    "rows": 8192,
+    "columns": 16384
+  },
+  "b": 337,
+  "m_bits": 8192,
+  "n_bits": 16384,
+  "h_col_wt": 192,
+  "x_col_wt": 128,
+  "err_wt": 128,
+  "noise_entropy_bits": 128,
+  "tuple2_fraction": 0.55,
+  "depth_slope_bits": 16,
+  "edge_budget": 1200000,
+  "lpn_n": 4096,
+  "lpn_t": 16384,
+  "lpn_tau_num": 1,
+  "lpn_tau_den": 8
+}

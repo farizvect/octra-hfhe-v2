@@ -1,0 +1,27 @@
+{
+  "format": "octra-hfhe-bounty-v2",
+  "status": "active",
+  "network": "octra-mainnet",
+  "reward_oct": 500000,
+  "encrypted_plaintext": {
+    "type": "bounty-payload"
+  },
+  "cryptography": {
+    "implementation": "pvac-hfhe-cpp",
+    "repository": "https://github.com/octra-labs/pvac_hfhe_cpp",
+    "commit": "071b0e909c119de815e284b347c4bd979cb59ef3",
+    "field": "2^127-1",
+    "parameter_b": 337,
+    "h_dimensions": {
+      "rows": 8192,
+      "columns": 16384
+    },
+    "noise_entropy_bits": 128
+  },
+  "public_artifacts": {
+    "ciphertext": "secret.ct",
+    "public_key": "pk.bin",
+    "parameters": "params.json"
+  },
+  "winning_condition": "recover plaintext from secret.ct using public files only; follow the recovered instructions"
+}

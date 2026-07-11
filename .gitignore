@@ -1,0 +1,45 @@
+# Build artifacts
+tools/analysis/analyze
+tools/analysis/probe
+tools/analysis/dump_real
+tools/analysis/dump_c0
+tools/analysis/native_scan
+tools/analysis/verify_all
+tools/analysis/idx_scan
+tools/attack/algebra_lab
+tools/attack/scale_barrier
+tools/attack/pedersen_check
+tools/attack/pc_combine
+tools/attack/pc_oracle_test
+tools/attack/check_rcom
+tools/attack/pin_open
+tools/attack/pin_R
+tools/attack/full_sweep
+tools/attack/defect_scan
+tools/attack/deep_lpn
+tools/attack/deep_lab
+tools/attack/research_lab
+tools/attack/bias_deep
+tools/attack/exploit_bias
+tools/attack/toep_deep
+tools/attack/toep_analysis
+tools/lpn/lpn_solve
+tools/lpn/lpn_solve2
+tools/lpn/lpn_bp
+tools/lpn/lpn_gd
+tools/lpn/ratio_test
+tools/lpn/try_ratio
+tools/lpn/challenge_ratio
+tools/lpn/wrap_sum
+
+# Don't commit binary artifacts
+*.o
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# Embedded repos (clone separately)
+challenge/
+pvac_hfhe_cpp/
